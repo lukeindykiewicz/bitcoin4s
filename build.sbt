@@ -5,7 +5,7 @@ import scalariform.formatter.preferences._
 
 name := "bitcoin4s"
 
-version := "0.1.14"
+version := "0.1.15"
 
 scalaVersion := "2.12.2"
 
@@ -14,7 +14,7 @@ crossScalaVersions := Seq("2.12.2")
 organization := "bitcoinpaygate"
 
 libraryDependencies ++= {
-  val akkaHttpVersion       = "10.0.5"
+  val akkaHttpVersion       = "10.0.10"
 
   Seq(
     "org.scalatest"        %% "scalatest"              % "3.0.1"          % "test",
